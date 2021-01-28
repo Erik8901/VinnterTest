@@ -1,10 +1,28 @@
-import logo from './logo.svg';
+import React from 'react'
+
+//Components
+import Header from './components/Header/header'
+import BannerOne from './components/BannerOne/BannerOne'
+import BannerTwo from './components/BannerTwo/BannerTwo'
+import BannerThree from './components/BannerThree/BannerThree'
+import BannerFour from './components/BannerFour/BannerFour'
+import BannerFive from './components/BannerFive/BannerFive'
+import Footer from './components/Footer/Footer'
+
+
+//CSS
 import './App.css';
 
 function App() {
   return (
     <div className="App">
-      <h1>Vinnter Test</h1>
+        <Header />
+        <BannerOne />
+        <BannerTwo />
+        <BannerThree />
+        <BannerFour />
+        <BannerFive />
+        <Footer />
     </div>
   );
 }

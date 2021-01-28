@@ -1,0 +1,29 @@
+.BannerOne-div {
+    width: 100%;
+    display: flex;
+    z-index: 1;
+    height: fit-content;
+    top: 10rem;
+    position: absolute;
+    color: #ffff;
+}
+
+.front-page-text-div {
+    display: flex;
+    flex-direction: column;
+}
+
+.company-title {
+    font-size: 7rem;
+}
+
+.company-info {
+    font-size: 3rem;
+    margin-top: 6rem;
+}
+
+@media screen and (max-width: 800px) {
+    .company-info {
+        font-size: 2rem;
+    }
+  }
