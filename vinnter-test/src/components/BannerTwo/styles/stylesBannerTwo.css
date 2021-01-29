@@ -1,8 +1,107 @@
 .BannerTwo-div {
     background: #fff;
     width: 100%;
-    height: 30rem;
+    /* height: 100%; */
     top: 100%;
     position: relative;
+    display: flex;
+    flex-direction: row;
+    z-index: 9;
+}
+
+.bannerTwo-text-div-two {
+
+}
+
+.bannerTwo-text-div-one {
+    
+}
+
+.bannerTwo-text-div-one, .bannerTwo-text-div-two {
+    width: 40%;
+    height: 100%;
+    margin: 0 auto;
+    margin-top: 2rem;
+    border-top: 0.3rem solid #000;
+    margin-bottom: 2rem;
+}
+
+.banner-two-title {
+    top: 1rem;
+    position: relative;
+    font-size: 2rem;
+  }
+
+  .articles-div {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-top: 2rem;
+}
+  
+.article {
+    width: 30%;
+    display: flex;
+    flex-direction: column;
+    text-align: left;
+  }
+
+  .article-img {
+    width: 100%;
+    position: relative;
+    height: 90%;
+  }
+
+  .article-title {
+    margin-top: 1rem;
+  }
+
+  .article-date-time-comments {
+    color: gray;
+    font-size: 0.8rem;
+}
+
+.article-text {
+    margin-top: 1rem;
+    color: gray;
+    font-size: 0.8rem;
+}
+
+.article-link {
+    margin-top: 2rem;
+    color: green;
+}
+
+.article-text-two {
+    margin-top: 2rem;
+    color: gray;
+    text-align: left;
    
+}
+
+.line-break {
+    margin-top: 1rem;
+}
+  
+
+  @media screen and (max-width: 1000px) {
+    .BannerTwo-div {
+        flex-direction: column;
+        /* background: black; */
+        display: flex;
+    }
+    .bannerTwo-text-div-one, .bannerTwo-text-div-two {
+        width: 100%;
+    }
+    .articles-div {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+    }
+    .article {
+        width: 100%;
+    }
+    .BannerTwo-div {
+        height: fit-content;
+    }
 }
