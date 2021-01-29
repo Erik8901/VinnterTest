@@ -1,7 +1,54 @@
 .BannerThree-div {
     width: 100%;
-    height: 20rem;
+    height: auto;
     top: 100%;
     position: relative;
     background: #7A7979;
+    padding-top: 3rem;
+    padding-bottom: 2rem;
+}
+
+
+.banner-three-title {
+    font-size: 3rem;
+}
+
+.info-title {
+    font-size: 2rem;
+    color: darkgray;
+}
+
+.banner-three-info-divs {
+    display: flex;
+    flex-direction: row;
+    margin: 0 auto;
+    margin-top: 2rem;
+    justify-content: center;
+}
+
+.info-div {
+    height:100%;
+    width: 14%;
+    margin: 2rem;
+}
+
+.info-text-div {
+    margin-top: 2rem;
+}
+
+.info-text {
+    color: lightgray;
+}
+
+@media screen and (max-width: 1000px) {
+    .banner-three-info-divs {
+        display: flex;
+        flex-direction: column;
+    }
+    .info-div {
+        width: 100%;
+
+        margin: unset;
+    }
+    
 }
