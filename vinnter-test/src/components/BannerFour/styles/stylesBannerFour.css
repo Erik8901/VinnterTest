@@ -6,4 +6,18 @@
     background-image: url(https://vinnter.se/wp-content/uploads/2018/09/shutterstock_1065723116-e1552403394662.jpg);
     background-repeat: no-repeat;
     background-size: 100% 100%;
+    color: #ffff;
+    padding-top: 6rem;
+}
+
+.banner-thee-title {
+    font-size: 2.7rem;
+}
+
+.text-one-div {
+    margin-top: 2rem;
+}
+
+.text-one {
+    font-size: 2rem;
 }
