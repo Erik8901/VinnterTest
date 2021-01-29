@@ -1,0 +1,26 @@
+.MainMenuMobile-div {
+    left: 0;
+    width: 100%;
+    top: 100%;
+    position: absolute;
+    background: #6EC1E4;
+}
+
+.links {
+    display: flex;
+    height: fit-content;
+    width: fit-content;
+    flex-direction: column;
+    margin: 1rem;
+    font-size: 1.3rem;
+    color: #fff;
+}
+
+.link-mobile {
+    text-decoration: none;
+    color: #fff;
+}
+
+.link:hover {
+    text-decoration: underline;
+}

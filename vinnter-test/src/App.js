@@ -1,7 +1,7 @@
 import React from 'react'
 
 //Components
-import Header from './components/Header/header'
+import Header from './components/Header/Header'
 import BannerOne from './components/BannerOne/BannerOne'
 import BannerTwo from './components/BannerTwo/BannerTwo'
 import BannerThree from './components/BannerThree/BannerThree'

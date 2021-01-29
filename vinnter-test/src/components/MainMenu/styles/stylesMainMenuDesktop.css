@@ -1,0 +1,27 @@
+.links-desktop {
+    display: flex;
+    flex-direction: row;
+    position: absolute;
+    right: 3%;
+    font-size: 1.3rem;
+    top: 1rem;
+    justify-content: space-evenly;
+    width: auto;
+}
+
+.link {
+    color: #000;
+    margin: 1rem;
+    text-decoration: none;
+    padding: 0.6rem;
+}
+
+.link:hover {
+    background: #6EC1E4;
+    text-decoration: none;
+    color: #fff;
+}
+
+.fa-angle-down {
+    top: 1.6rem;
+}

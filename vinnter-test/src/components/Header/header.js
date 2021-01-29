@@ -1,26 +1,32 @@
 import React, { useState, useEffect}  from 'react'
-import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+
+import MainMenuMobile from '../MainMenu/MainMenuMobile'
+import MainMenuDesktops from '../MainMenu/MainMenuDesktops'
 
 //CSS
 import './styles/stylesHeader.css';
 
 function Header() {
-    const [carsList, setCarsList] = useState(["test"]);
+  const [showMenu, setShowMenu] = useState(false)
 
     useEffect( () => { 
-       console.log(carsList)
      
-     },[]) //useEffect 1 
+    },[]) //useEffect 1 
   return (
     <div className="header-div">
         <img className="header-logo" src="https://vinnter.se/wp-content/uploads/2018/09/vinnter-logo-502x246x300dpi-300x145.png"/>
         <div className="social-links">
-            <a href="#" class="fa fa-linkedin"></a>
-            <a href="#" class="fa fa-twitter"></a>
-            <a href="#" class="fa fa-facebook"></a>
-            <i class="fa fa-envelope"></i>
+            <a href="https://www.linkedin.com/company/vinnter-ab/" className="fa fa-linkedin" target="_blank" rel="noopener noreferrer"></a>
+            <a href="https://twitter.com/VinnterAB" className="fa fa-twitter" target="_blank" rel="noopener noreferrer"></a>
+            <a href="https://www.facebook.com/vinnterab/" className="fa fa-facebook" target="_blank" rel="noopener noreferrer"></a>
+            <a href="mailto:webmaster@example.com" className="fa fa-envelope"></a>
         </div>
-    </div>
+          <i className="fa fa-bars" onClick={() => setShowMenu(!showMenu)}></i>
+        <div className="desktop-menu">
+          <MainMenuDesktops />
+        </div>
+         { showMenu && <MainMenuMobile /> }
+    </div> 
   );
 }
 

@@ -79,5 +79,26 @@
     top: 20%;
     position: relative;
 }
-  
+
+.fa-bars {
+    display: none;
+    font-size: 2rem;
+    height: fit-content;
+    position: absolute;
+    top: 2rem;
+    left: 80%;
+    cursor: pointer;
+}
+
+@media screen and (max-width: 1000px) {
+    .social-links {
+      display: none;
+    }
+    .fa-bars {
+      display: block;
+    }
+    .desktop-menu {
+        display: none;
+    }
+  }
 
