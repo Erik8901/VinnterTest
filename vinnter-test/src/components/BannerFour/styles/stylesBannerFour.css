@@ -1,16 +1,17 @@
 .BannerFour-div {
     width: 100%;
-    height: 40rem;
+    height: auto;
     top: 100%;
     position: relative;
     background-image: url(https://vinnter.se/wp-content/uploads/2018/09/shutterstock_1065723116-e1552403394662.jpg);
     background-repeat: no-repeat;
     background-size: 100% 100%;
     color: #ffff;
-    padding-top: 6rem;
+    padding-top: 4rem;
+    padding-bottom: 4rem;
 }
 
-.banner-thee-title {
+.banner-three-title {
     font-size: 2.7rem;
 }
 
@@ -19,5 +20,61 @@
 }
 
 .text-one {
-    font-size: 2rem;
+    font-size: 1.3rem;
 }
+
+.text-container {
+    display: flex;
+    flex-direction: column;
+    margin-top: 2rem;
+    font-size: 1.3rem;
+}
+
+.text-three {
+    margin-top: 0.6rem;
+}
+
+.numbers-info-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    margin-top: 2rem;
+    width: 63%;
+    margin: 0 auto;
+    padding-top: 4rem;
+    padding-bottom: 4rem;
+}
+
+.numbers-info {
+    width: 30%;
+    display: flex;
+    flex-direction: column;
+    text-align: left;
+    font-size: 6rem;
+}
+
+.numbers-info-text {
+    display: flex;
+    flex-direction: column;
+    width: 76%;
+    font-size: 1rem;
+    margin-top: 2rem;
+}
+
+@media screen and (max-width: 1000px) {
+    .text-one-div {
+        display: none;
+    }
+    .numbers-info-container {
+        flex-direction: column;
+        width: auto;
+    }
+    .numbers-info {
+        width: 100%;
+        margin: 0 auto;
+        text-align: center;
+    }
+    .numbers-info-text {
+        width: 100%;
+    }
+  }
