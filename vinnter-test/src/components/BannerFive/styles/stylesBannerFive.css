@@ -57,6 +57,15 @@
     border-radius: 0.7rem;
 }
 
+@media screen and (max-width: 1000px) {
+    .team-photo-container {
+        width: unset;
+    }
+    .photo {
+        width:30rem;
+    }
+  }
+
 
 
 

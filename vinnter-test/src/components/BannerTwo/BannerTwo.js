@@ -11,25 +11,25 @@ function BannerTwo () {
             <span className="banner-two-title">Our articles</span>
                 <div className="articles-div">
                     <div className="article">
-                        <img className="article-img" src="https://vinnter.se/wp-content/uploads/2020/12/Servitisation-benefits-1200x600x150dpi-1024x512.jpg" />
+                        <img className="article-img" alt="img" src="https://vinnter.se/wp-content/uploads/2020/12/Servitisation-benefits-1200x600x150dpi-1024x512.jpg" />
                         <span className="article-title">Servitisation: Benefits And Best Practices</span>
                         <span className="article-date-time-comments">2021-01-12  No Comments</span>
                         <span className="article-text">Servitisation is a complex-sounding word that encapsulates a simple idea: shifting from a reliance on products as a driver for economic growth, to an emphasis</span>
-                        <a className="article-link">Read More...</a>
+                        <a className="article-link" href="https://vinnter.se/servitisation-benefits-and-best-practices/">Read More...</a>
                     </div>
                     <div className="article">
-                        <img className="article-img" src="https://vinnter.se/wp-content/uploads/2020/12/Servitisation-benefits-1200x600x150dpi-1024x512.jpg" />
+                        <img className="article-img" alt="img" src="https://vinnter.se/wp-content/uploads/2020/12/Servitisation-benefits-1200x600x150dpi-1024x512.jpg" />
                         <span className="article-title">Servitisation: Benefits And Best Practices</span>
                         <span className="article-date-time-comments">2021-01-12  No Comments</span>
                         <span className="article-text">Servitisation is a complex-sounding word that encapsulates a simple idea: shifting from a reliance on products as a driver for economic growth, to an emphasis</span>
-                        <a className="article-link">Read More...</a>
+                        <a className="article-link" href="https://vinnter.se/servitisation-benefits-and-best-practices/">Read More...</a>
                     </div>
                     <div className="article">
-                        <img className="article-img" src="https://vinnter.se/wp-content/uploads/2020/12/Servitisation-benefits-1200x600x150dpi-1024x512.jpg" />
+                        <img className="article-img" alt="img" src="https://vinnter.se/wp-content/uploads/2020/12/Servitisation-benefits-1200x600x150dpi-1024x512.jpg" />
                         <span className="article-title">Servitisation: Benefits And Best Practices</span>
                         <span className="article-date-time-comments">2021-01-12  No Comments</span>
                         <span className="article-text">Servitisation is a complex-sounding word that encapsulates a simple idea: shifting from a reliance on products as a driver for economic growth, to an emphasis</span>
-                        <a className="article-link">Read More...</a>
+                        <a className="article-link" href="https://vinnter.se/servitisation-benefits-and-best-practices/">Read More...</a>
                     </div>
                 </div>
           </div>

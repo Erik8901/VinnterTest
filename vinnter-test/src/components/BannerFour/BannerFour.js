@@ -35,7 +35,7 @@ function BannerFour() {
                 </div>    
             </div>
         </div>
-        <a>https://safeatlast.co/blog/iot-statistics/</a>
+        <a href="https://safeatlast.co/blog/iot-statistics/">https://safeatlast.co/blog/iot-statistics/</a>
     </div>
   );
 }

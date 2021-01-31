@@ -8,7 +8,7 @@ function BannerThree() {
   return (
     <div className="BannerThree-div">
         <span className="banner-three-title">What we do</span>
-        <div class="banner-three-info-divs">
+        <div className="banner-three-info-divs">
             <div className="info-div">
                 <span className="info-title">Prototyping</span>
                 <div className="info-text-div">
