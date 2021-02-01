@@ -5,6 +5,7 @@
     position: relative;
     background: #fff;
     padding-top: 3rem;
+    border-bottom: 10px solid #39c7ce;
 }
 
 .team-title {
@@ -16,6 +17,7 @@
     flex-wrap: wrap;
     width: 60%;
     margin: 0 auto;
+    padding-bottom: 0.2rem;
 }
 
 .photo-link {
@@ -47,13 +49,11 @@
 .photo-container:hover > .hide{
     display: block;
     color: #ffff;
-    
 }
 
 .photo {
-    height: 30rem;
-    width: 22rem;
-    margin: 0.4rem;
+    height: 25rem;
+    width: 99%;
     border-radius: 0.7rem;
 }
 

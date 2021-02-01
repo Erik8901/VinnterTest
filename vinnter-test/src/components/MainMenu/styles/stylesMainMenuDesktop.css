@@ -3,7 +3,7 @@
     flex-direction: row;
     position: absolute;
     right: 3%;
-    font-size: 1.3rem;
+    /* font-size: 1.3rem; */
     top: 1rem;
     justify-content: space-evenly;
     width: auto;
