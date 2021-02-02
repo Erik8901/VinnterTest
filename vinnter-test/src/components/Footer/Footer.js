@@ -27,7 +27,7 @@ function Footer() {
               </div>
               <div className="mobile">
                   <a href="https://www.google.com/maps/place/Vinnter/@57.7082456,11.9626629,15z/data=!4m5!3m4!1s0x0:0x11752a5767f71834!8m2!3d57.7082456!4d11.9626629?shorturl=1">
-                  <i class="fa fa-phone" style={{padding: "unset"}}></i>
+                  <i  className="fa fa-phone" style={{padding: "unset"}}></i>
                   <span className="first-text">Mobile</span>
                   </a>
                   <span>+46 (0)70 339‬‬‬ 82‬‬ 06</span>
