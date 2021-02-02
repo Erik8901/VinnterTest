@@ -2,7 +2,7 @@
     width: 100%;
     display: flex;
     z-index: 1;
-    height: fit-content;
+    height: 100%;
     top: 10rem;
     position: absolute;
     color: #ffff;
@@ -22,8 +22,11 @@
     margin-top: 6rem;
 }
 
-@media screen and (max-width: 800px) {
+@media screen and (max-width: 1000px) {
     .company-info {
-        font-size: 2rem;
+        font-size: 1rem;
+    }
+    .company-title {
+        font-size: 3rem;
     }
   }

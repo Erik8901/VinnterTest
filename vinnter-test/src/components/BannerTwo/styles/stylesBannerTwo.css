@@ -1,7 +1,6 @@
 .BannerTwo-div {
     background: #fff;
     width: 100%;
-    
     top: 100%;
     position: relative;
     display: flex;
@@ -41,7 +40,7 @@
   .article-img {
     width: 100%;
     position: relative;
-    height: 90%;
+    height: 6rem;
   }
 
   .article-title {
@@ -68,7 +67,6 @@
     margin-top: 2rem;
     color: gray;
     text-align: left;
-   
 }
 
 .line-break {

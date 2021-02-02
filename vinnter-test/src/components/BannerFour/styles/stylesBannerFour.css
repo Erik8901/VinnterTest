@@ -7,12 +7,12 @@
     background-repeat: no-repeat;
     background-size: 100% 100%;
     color: #ffff;
-    padding-top: 4rem;
+    padding-top: 10rem;
     padding-bottom: 4rem;
 }
 
 .banner-three-title {
-    font-size: 2.7rem;
+    font-size: 2rem;
 }
 
 .text-one-div {
@@ -50,7 +50,7 @@
     display: flex;
     flex-direction: column;
     text-align: left;
-    font-size: 6rem;
+    font-size: 4rem;
 }
 
 .numbers-info-text {

@@ -39,6 +39,8 @@
     display: none;
     left:30%;
     color: #fff;
+    font-weight: bold;
+    filter: brightness(150%);
 }
 
 .photo-container:hover {
@@ -48,7 +50,6 @@
 
 .photo-container:hover > .hide{
     display: block;
-    color: #ffff;
 }
 
 .photo {
@@ -64,7 +65,7 @@
     .photo {
         width:30rem;
     }
-  }
+}
 
 
 

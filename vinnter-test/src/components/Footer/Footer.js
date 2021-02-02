@@ -1,6 +1,5 @@
 import React from 'react'
 
-
 //CSS
 import './styles/stylesFooter.css'
 
@@ -11,19 +10,26 @@ function Footer() {
             <div className="company-contact-info">
                 <div className="address">
                     <a href="https://www.google.com/maps/place/Vinnter/@57.7082456,11.9626629,15z/data=!4m5!3m4!1s0x0:0x11752a5767f71834!8m2!3d57.7082456!4d11.9626629?shorturl=1">
-                        <span>Address</span></a>
+                        <i className="fa fa-map" style={{padding: "unset"}}></i>
+                        <span className="first-text">Address</span>
+                        </a>
                         <span>Kvarnbergsgatan 2</span>
                         <span>SE-411 05 GÖTEBORG</span>
                         <span>Sweden</span>
               </div>
               <div className="company-number">
                   <a href="https://www.google.com/maps/place/Vinnter/@57.7082456,11.9626629,15z/data=!4m5!3m4!1s0x0:0x11752a5767f71834!8m2!3d57.7082456!4d11.9626629?shorturl=1">
-                      <span>Company</span></a>
+                      <i className="fa fa-info-circle" style={{padding: "unset"}}></i>
+                      <span className="first-text">Company</span>
+                      </a>
                       <span>Registration number:</span>
                       <span>556860-1057</span>
               </div>
               <div className="mobile">
-                  <span>Mobile</span>
+                  <a href="https://www.google.com/maps/place/Vinnter/@57.7082456,11.9626629,15z/data=!4m5!3m4!1s0x0:0x11752a5767f71834!8m2!3d57.7082456!4d11.9626629?shorturl=1">
+                  <i class="fa fa-phone" style={{padding: "unset"}}></i>
+                  <span className="first-text">Mobile</span>
+                  </a>
                   <span>+46 (0)70 339‬‬‬ 82‬‬ 06</span>
               </div>
               <div className="VAT">

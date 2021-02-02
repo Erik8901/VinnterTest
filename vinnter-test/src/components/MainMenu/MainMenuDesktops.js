@@ -8,7 +8,7 @@ function MainMenuDesktop() {
   return (
     <div className="MainMenuDesktop-div" >
       <div className="links-desktop">
-        <a href="/home" className="link">Start<i className="fa fa-angle-down"></i></a>
+        <a href="/home" className="link-start">Start</a>
         <a href="/about" className="link">Content<i className="fa fa-angle-down"></i></a>
         <a href="/contact" className="link">About<i className="fa fa-angle-down"></i></a>
         <a href="/contact" className="link">Career<i className="fa fa-angle-down"></i></a>

@@ -11,7 +11,6 @@
     height: fit-content;
     width: fit-content;
     flex-direction: column;
-    margin: 1rem;
     font-size: 1.3rem;
     color: #fff;
 }
@@ -19,8 +18,23 @@
 .link-mobile {
     text-decoration: none;
     color: #fff;
+    text-align: left;
+    width: 100vw;
+    padding-left: 1rem;
+    cursor: pointer;
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
 }
 
-.link:hover {
-    text-decoration: underline;
+.link-mobile:hover {
+    background: #0073aa;
+}
+
+.fa-angles-down:before {
+    content: "\f107";
+    position: absolute;
+    right: 10%;
 }
