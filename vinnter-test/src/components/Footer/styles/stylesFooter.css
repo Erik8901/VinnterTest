@@ -55,7 +55,6 @@ a {
 }
 
 .first-text {
-
     margin-left: 0.6rem;
 }
 
@@ -133,7 +132,7 @@ a {
 
 .google-map {
     height: 16rem;
-    width: 60%;
+    width: 50%;
     margin: 0 auto;
 }
 
@@ -148,14 +147,15 @@ a {
 .social-media-footer-links {
     display: flex;
     flex-direction: row;
-    justify-content: space-between;
+    justify-content: space-around;
     margin: 0 auto;
     width: 60%;
     margin-top: 7rem;
+    text-align: left;
 }
 
 .logo {
-    width: 67%;
+    width: 50%;
 }
 
 
