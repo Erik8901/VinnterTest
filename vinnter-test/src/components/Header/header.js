@@ -1,5 +1,6 @@
-import React, { useState, useEffect}  from 'react'
+import React, { useState }  from 'react'
 
+//components
 import MainMenuMobile from '../MainMenu/MainMenuMobile'
 import MainMenuDesktops from '../MainMenu/MainMenuDesktops'
 
@@ -9,10 +10,7 @@ import './styles/stylesHeader.css';
 function Header() {
   const [showMenu, setShowMenu] = useState(false)
 
-    useEffect( () => { 
-     
-    },[]) //useEffect 1 
-  return (
+   return (
     <div className="header-div">
         <a href="http://localhost:3000/home"><img className="header-logo" alt="img"  src="https://vinnter.se/wp-content/uploads/2018/09/vinnter-logo-502x246x300dpi-300x145.png"/>
         </a>
@@ -22,11 +20,11 @@ function Header() {
             <a href="https://www.facebook.com/vinnterab/" target="_blank" rel="noopener noreferrer"><i className="fa fa-facebook"/></a>
             <a href="mailto:webmaster@example.com" target="_blank" rel="noopener noreferrer"><i className="fa fa-envelope"/></a>
         </div>
-          <i className="fa fa-bars" onClick={() => setShowMenu(!showMenu)}></i>
+            <i className="fa fa-bars" onClick={() => setShowMenu(!showMenu)}></i>
         <div className="desktop-menu">
-          <MainMenuDesktops />
+            <MainMenuDesktops />
         </div>
-         { showMenu && <MainMenuMobile /> }
+          { showMenu && <MainMenuMobile /> }
     </div> 
   );
 }

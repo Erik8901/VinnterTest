@@ -9,7 +9,6 @@ import BannerFour from './components/BannerFour/BannerFour'
 import BannerFive from './components/BannerFive/BannerFive'
 import Footer from './components/Footer/Footer'
 
-
 //CSS
 import './App.css';
 

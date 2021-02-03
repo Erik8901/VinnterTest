@@ -7,7 +7,7 @@
     width: auto;
 }
 
-.link-start {
+.link-start-desktop {
     color: #000;
     margin: 1rem;
     text-decoration: none;
@@ -17,14 +17,14 @@
     right: 1rem;
 }
 
-.link {
+.link-desktop {
     color: #000;
     margin: 1rem;
     text-decoration: none;
     padding: 0.6rem;
 }
 
-.link:hover {
+.link-desktop:hover {
     background: #6EC1E4;
     text-decoration: none;
     color: #fff;
